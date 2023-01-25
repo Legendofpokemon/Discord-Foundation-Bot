@@ -15,8 +15,8 @@ load_dotenv()
 
 #connect to mongodb with motor
 client = motor.motor_asyncio.AsyncIOMotorClient(os.getenv("MONGODBTOKEN")) #paste mongodb token in the .env file
-db = client["Bots"]
-collection = db["Levels"]
+db = client["NAME-OF-DATABASE"]
+collection = db["NAME-OF-COLLECTION"]
 
 class aclient(discord.Client): 
     def __init__(self):
