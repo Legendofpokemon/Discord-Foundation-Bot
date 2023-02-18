@@ -24,7 +24,7 @@ Click the "connect" button and choose "connect your application"
 choose python and the version you're using or copy this URL 
 mongodb+srv://<username>:<password>@cluster0.i4piqob.mongodb.net/?retryWrites=true&w=majority
 
-erplace username and password with the username and password to the user you created at the start
+replace username and password with the username and password to the user you created at the start
 (make sure your remove the <> around username and password when you paste them in)
 
 Now follow the code in New-freatures/MongoDB to use MondoDB with your discord bot
