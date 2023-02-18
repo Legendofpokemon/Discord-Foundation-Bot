@@ -3,7 +3,7 @@ Go to https://www.mongodb.com/ and create an account
 create a project and name it
 
 Either skip the add members page by clicking "create project" or add a member 
-by typing thei email address in the box given
+by typing their email address in the box given
 
 Go to database under the security tab on the left and create a new password user
 give the user the role "atlas admin" under "built-in role"
