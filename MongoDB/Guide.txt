@@ -1,0 +1,31 @@
+Go to https://www.mongodb.com/ and create an account  
+
+create a project and name it
+
+Either skip the add members page by clicking "create project" or add a member 
+by typing their email address in the box given
+
+Go to database under the security tab on the left and create a new password user
+give the user the role "atlas admin" under "built-in role"
+
+In network access in the secturity tab click add ip address and either whitelist all or enable your own ip
+(If hosting on a server whitelisting all ip is recommended)
+
+Next head to database and click "build a database"
+Choose the "Sharded" or "Free" option...or if you would like one of the others
+
+Select your server and scroll down to "cluster name"
+give your database a name and click "create cluster"
+
+Your user and ip should already be set, scroll down and click "finish and close"
+then "go to database"
+
+Click the "connect" button and choose "connect your application"
+choose python and the version you're using or copy this URL 
+mongodb+srv://<username>:<password>@cluster0.i4piqob.mongodb.net/?retryWrites=true&w=majority
+
+replace username and password with the username and password to the user you created at the start
+(make sure your remove the <> around username and password when you paste them in)
+
+Now follow the code in New-freatures/MongoDB to use MondoDB with your discord bot
+
